@@ -1,0 +1,191 @@
+/* #images{
+    background-image: url('images/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/* }  */
+.images {
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+    height: 380px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 70px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    /* Optional for better readability */
+}
+
+.vertical-scroll {
+    display: flex;
+    flex-direction: column;
+    /* Arrange cards in a vertical column */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    max-height: 500px;
+    /* Set max height to trigger vertical scrolling */
+    padding: 0;
+    gap: 5px;
+}
+
+.vertical-scroll .card {
+    margin-bottom: 0;
+}
+
+.vertical-scroll::-webkit-scrollbar {
+    width: 1px;
+    /* display: none; */
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.vertical-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.text {
+    color: orange;
+}
+
+.two {
+    text-align: center;
+    font-weight: 400;
+    color: red;
+}
+
+.card-texts1,
+p {
+    margin-left: 8%;
+    margin-top: 10px;
+}
+
+.card-texts1 {
+    color: rgb(63, 112, 63);
+    font-weight: 400;
+}
+
+.p1 {
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+.buttons {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 50px;
+    padding: 11px;
+    margin: 7px;
+    margin-left: 8%;
+    margin-top: 10px;
+}
+
+.cardscolor {
+    background-color: rgb(220, 140, 153);
+}
+
+.buttonss {
+    background-color: rgb(220, 140, 153);
+    border: 2px solid black;
+    color: black;
+    border-radius: 50px;
+    padding: 11px;
+    margin: 7px;
+    margin-left: 8%;
+    margin-top: 10px;
+}
+
+.card-texts11 {
+    color: rgb(18, 20, 18);
+    font-weight: 400;
+    margin-left: 8%;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.boxes {
+    width: 80px;
+    height: 75px;
+}
+
+.boxes h4 {
+    background-color: green;
+    text-align: center;
+    padding: 3px;
+}
+
+.boxes h6 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.boxes1 {
+    width: 250px;
+    text-align: center;
+
+}
+
+.star-rating {
+    display: inline-flex;
+    font-size: 2em;
+    color: gray;
+}
+
+.star-rating .filled {
+    color: gold;
+}
+
+.twoo {
+    font-weight: 300;
+}
+.name{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.center-input {
+    display: flex;
+    justify-content: center;
+
+}
+.center-i{
+    display: flex;
+    justify-content: center;
+}
+.text-center i{
+    font-size: 28px;
+    padding: 5px;
+    color: wheat;
+}
+.find .col p,
+.find .col h6 {
+    margin-left: 0px; /* Adjust as needed */
+    padding-left: 0px; /* Adjust as needed */
+    justify-content: center;
+    color: white;
+    
+}
+.ph{
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.colr{
+    background-color:rgb(189, 136, 145);
+}
+
+
+
+
+
